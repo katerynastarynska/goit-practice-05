@@ -30,3 +30,5 @@ player.setCurrentTime(currentTime).then(function(seconds) {
             break;
     }
 });
+
+localStorage.removeItem('videoplayer-current-time')
